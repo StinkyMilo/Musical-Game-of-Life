@@ -55,7 +55,6 @@ public class SampleWave{
   }
   
   public static SampleWave sound(String filename, int notes, boolean chromatic){
-    //THIS DOES NOT WORK WHEN NOT CHROMATIC. I HAVE NO FUCKING CLUE WHY.
     //Takes file as playing middle C.
     allowChromatic=chromatic;
     final int offset = 0;
